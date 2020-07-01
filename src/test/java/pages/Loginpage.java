@@ -18,6 +18,8 @@ public class Loginpage {
     
 	@FindBy(how= How.XPATH,using= "//input[@type='submit']")
 	public WebElement submit;
+	@FindBy(how= How.XPATH,using= "//input[@type='submit']")
+	public WebElement submit1;
 	
 	public Loginpage(RemoteWebDriver driver)
 	{
